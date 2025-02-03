@@ -6283,3 +6283,1308 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.03-10.30.17:571][737]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.02.03-10.30.17:571][737]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.02.03-10.30.17:571][737]AssetCheck: /Game/Map/Map_DefaultGameScene Validating asset
+[2025.02.03-10.31.49:129][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Fighter.BP_Fighter
+[2025.02.03-10.31.49:130][627]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.02.03-10.35.34:120][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2025.02.03-10.36.31:570][158]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9714.166992
+[2025.02.03-10.36.31:720][167]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-10.36.31:720][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9714.299805, Update Interval: 355.975220
+[2025.02.03-10.37.01:111][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.02.03-10.37.02:078][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.37.02:087][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.37.02:087][573]LogPlayLevel: Display: Creating online subsystem for client :Context_52
+[2025.02.03-10.37.02:090][573]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2025.02.03-10.37.02:112][574]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.37.02:113][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001956s)
+[2025.02.03-10.37.02:113][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.002014s)
+[2025.02.03-10.37.02:137][574]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.02.03-10.37.02:143][574]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.37.02:145][574]LogPlayLevel: PIE: World Init took: (0.001805s)
+[2025.02.03-10.37.02:146][574]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.37.02:146][574]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.37.02:146][574]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.37.02:146][574]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.37.02:146][574]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.37.02:146][574]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.37.02:149][574]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.37.02:432][574]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.37.02:432][574]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.37.02:432][574]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.37.02:432][574]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.37.02:433][574]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2025.02.03-10.37.02:433][574]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2025.02.03-10.37.02:437][574]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2025.02.03-10.37.02:437][574]LogInit: FAudioDevice initialized with ID 44.
+[2025.02.03-10.37.02:437][574]LogAudio: Display: Audio Device (ID: 44) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.37.02:437][574]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2025.02.03-10.37.02:437][574]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2025.02.03-10.37.02:446][574]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.37.02:447][574]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.37.02
+[2025.02.03-10.37.02:448][574]LogWorld: Bringing up level for play took: 0.001672
+[2025.02.03-10.37.02:452][574]PIE: Server logged in
+[2025.02.03-10.37.02:453][574]PIE: Play in editor total start time 0.366 seconds.
+[2025.02.03-10.37.19:534][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.37.19:535][547]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.37.19:535][547]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.37.19:535][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.37.19:543][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.37.19:549][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.37.19:567][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.37.19:568][547]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2025.02.03-10.37.19:568][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2025.02.03-10.37.19:570][547]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2025.02.03-10.37.19:576][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2025.02.03-10.37.19:713][548]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2025.02.03-10.37.40:205][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.02.03-10.37.43:826][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.02.03-10.37.43:838][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-10.37.43:931][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Fighter] ([2] browsable assets)...
+[2025.02.03-10.37.43:931][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Fighter]
+[2025.02.03-10.37.43:931][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Fighter" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/BP_Fighter.uasset" SILENT=true
+[2025.02.03-10.37.43:938][720]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Fighter
+[2025.02.03-10.37.43:938][720]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/BP_FighterE04E057744B62917C56934BA78CE6ADD.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/BP_Fighter.uasset'
+[2025.02.03-10.37.43:954][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.924 ms (total: 4.67 sec)
+[2025.02.03-10.37.44:056][720]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-10.37.44:056][720]LogContentValidation: Enabled validators:
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-10.37.44:056][720]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-10.37.44:056][720]AssetCheck: /Game/Blueprints/BP_Fighter Validating asset
+[2025.02.03-10.37.48:994][986]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.37.49:005][986]LogPlayLevel: [PlayLevel] Compiling BP_Fighter before play...
+[2025.02.03-10.37.49:131][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.02.03-10.37.49:134][986]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2025.02.03-10.37.49:134][986]LogPlayLevel: Display: Creating online subsystem for client :Context_53
+[2025.02.03-10.37.49:137][986]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2025.02.03-10.37.49:206][987]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.37.49:209][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001836s)
+[2025.02.03-10.37.49:209][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001894s)
+[2025.02.03-10.37.49:227][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.02.03-10.37.49:236][987]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.37.49:238][987]LogPlayLevel: PIE: World Init took: (0.001801s)
+[2025.02.03-10.37.49:238][987]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.37.49:238][987]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.37.49:239][987]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.37.49:239][987]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.37.49:239][987]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.37.49:239][987]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.37.49:239][987]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.37.49:241][987]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.37.49:540][987]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.37.49:540][987]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.37.49:540][987]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.37.49:540][987]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.37.49:541][987]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.02.03-10.37.49:541][987]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2025.02.03-10.37.49:544][987]LogInit: FAudioDevice initialized with ID 45.
+[2025.02.03-10.37.49:544][987]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.02.03-10.37.49:544][987]LogAudio: Display: Audio Device (ID: 45) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.37.49:544][987]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.02.03-10.37.49:544][987]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.02.03-10.37.49:554][987]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.37.49:555][987]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.37.49
+[2025.02.03-10.37.49:555][987]LogWorld: Bringing up level for play took: 0.001434
+[2025.02.03-10.37.49:558][987]PIE: Server logged in
+[2025.02.03-10.37.49:559][987]PIE: Play in editor total start time 0.555 seconds.
+[2025.02.03-10.38.03:504][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.38.03:504][777]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.38.03:504][777]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.38.03:504][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.38.03:512][777]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.38.03:518][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.38.03:535][777]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.38.03:535][777]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.02.03-10.38.03:535][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.02.03-10.38.03:539][777]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2025.02.03-10.38.03:547][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.02.03-10.38.03:680][778]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2025.02.03-10.40.26:482][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.02.03-10.40.27:423][431]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.40.27:432][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.40.27:432][431]LogPlayLevel: Display: Creating online subsystem for client :Context_54
+[2025.02.03-10.40.27:435][431]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2025.02.03-10.40.27:460][432]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.40.27:463][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2025.02.03-10.40.27:463][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.002800s)
+[2025.02.03-10.40.27:488][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2025.02.03-10.40.27:497][432]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.40.27:499][432]LogPlayLevel: PIE: World Init took: (0.002195s)
+[2025.02.03-10.40.27:500][432]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.40.27:500][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.40.27:500][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.40.27:500][432]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.40.27:500][432]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.40.27:500][432]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.40.27:504][432]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.40.27:809][432]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.40.27:809][432]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.40.27:809][432]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.40.27:809][432]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.40.27:810][432]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.02.03-10.40.27:810][432]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2025.02.03-10.40.27:813][432]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.02.03-10.40.27:813][432]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.02.03-10.40.27:814][432]LogInit: FAudioDevice initialized with ID 46.
+[2025.02.03-10.40.27:814][432]LogAudio: Display: Audio Device (ID: 46) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.40.27:814][432]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.02.03-10.40.27:825][432]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.40.27:827][432]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.40.27
+[2025.02.03-10.40.27:828][432]LogWorld: Bringing up level for play took: 0.002518
+[2025.02.03-10.40.27:830][432]PIE: Server logged in
+[2025.02.03-10.40.27:832][432]PIE: Play in editor total start time 0.4 seconds.
+[2025.02.03-10.40.36:051][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.40.36:051][913]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.40.36:052][913]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.40.36:052][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.40.36:061][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.40.36:067][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.40.36:087][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.40.36:088][913]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.02.03-10.40.36:088][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.02.03-10.40.36:090][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2025.02.03-10.40.36:099][913]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.02.03-10.40.36:258][914]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2025.02.03-10.40.56:982][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.40.56:993][882]LogPlayLevel: [PlayLevel] Compiling BP_Fighter before play...
+[2025.02.03-10.40.57:130][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2025.02.03-10.40.57:133][882]LogPlayLevel: PlayLevel: Blueprint regeneration took 140 ms (1 blueprints)
+[2025.02.03-10.40.57:161][882]LogPlayLevel: Display: Creating online subsystem for client :Context_55
+[2025.02.03-10.40.57:164][882]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2025.02.03-10.40.57:247][883]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.40.57:249][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001749s)
+[2025.02.03-10.40.57:249][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001809s)
+[2025.02.03-10.40.57:272][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.02.03-10.40.57:279][883]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.40.57:282][883]LogPlayLevel: PIE: World Init took: (0.002743s)
+[2025.02.03-10.40.57:284][883]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.40.57:284][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.40.57:284][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.40.57:284][883]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.40.57:284][883]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.40.57:284][883]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.40.57:287][883]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.40.57:677][883]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.40.57:677][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.40.57:677][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.40.57:677][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.40.57:678][883]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2025.02.03-10.40.57:678][883]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2025.02.03-10.40.57:683][883]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2025.02.03-10.40.57:683][883]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2025.02.03-10.40.57:683][883]LogInit: FAudioDevice initialized with ID 47.
+[2025.02.03-10.40.57:683][883]LogAudio: Display: Audio Device (ID: 47) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.40.57:683][883]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2025.02.03-10.40.57:695][883]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.40.57:697][883]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.40.57
+[2025.02.03-10.40.57:697][883]LogWorld: Bringing up level for play took: 0.001915
+[2025.02.03-10.40.57:700][883]PIE: Server logged in
+[2025.02.03-10.40.57:702][883]PIE: Play in editor total start time 0.71 seconds.
+[2025.02.03-10.41.05:705][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.41.05:705][343]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.41.05:705][343]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.41.05:706][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.41.05:715][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.41.05:721][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.41.05:743][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.41.05:743][343]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2025.02.03-10.41.05:744][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2025.02.03-10.41.05:747][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2025.02.03-10.41.05:756][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2025.02.03-10.41.05:901][344]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2025.02.03-10.41.35:149][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.02.03-10.41.35:156][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-10.41.35:251][ 35]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_Fighter] ([2] browsable assets)...
+[2025.02.03-10.41.35:251][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Fighter]
+[2025.02.03-10.41.35:251][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Fighter" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/BP_Fighter.uasset" SILENT=true
+[2025.02.03-10.41.35:257][ 35]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Fighter
+[2025.02.03-10.41.35:258][ 35]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/BP_FighterA0A816E94B762F1225BBBABC29A1750F.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/BP_Fighter.uasset'
+[2025.02.03-10.41.35:259][ 35]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/InputMappingContext_Fighter] ([1] browsable assets)...
+[2025.02.03-10.41.35:259][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/InputMappingContext_Fighter]
+[2025.02.03-10.41.35:259][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/InputMappingContext_Fighter" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Input/InputMappingContext_Fighter.uasset" SILENT=true
+[2025.02.03-10.41.35:260][ 35]LogSavePackage: Moving output files for package: /Game/Input/InputMappingContext_Fighter
+[2025.02.03-10.41.35:260][ 35]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/InputMappingContext_FighterA659D9354C437C158BCFA4BD5C7B4EE4.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Input/InputMappingContext_Fighter.uasset'
+[2025.02.03-10.41.35:276][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.002 ms (total: 4.79 sec)
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: Display: Starting to validate 2 assets
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: Enabled validators:
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-10.41.35:385][ 35]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-10.41.35:385][ 35]AssetCheck: /Game/Blueprints/BP_Fighter Validating asset
+[2025.02.03-10.41.35:385][ 35]AssetCheck: /Game/Input/InputMappingContext_Fighter Validating asset
+[2025.02.03-10.41.36:260][ 86]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.41.36:269][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.41.36:269][ 86]LogPlayLevel: Display: Creating online subsystem for client :Context_56
+[2025.02.03-10.41.36:272][ 86]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.02.03-10.41.36:292][ 87]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.41.36:293][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001524s)
+[2025.02.03-10.41.36:293][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001570s)
+[2025.02.03-10.41.36:319][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.02.03-10.41.36:322][ 87]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.41.36:324][ 87]LogPlayLevel: PIE: World Init took: (0.002059s)
+[2025.02.03-10.41.36:326][ 87]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.41.36:326][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.41.36:326][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.41.36:326][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.41.36:326][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.41.36:326][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.41.36:328][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.41.36:640][ 87]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.41.36:640][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.41.36:641][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.41.36:641][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.41.36:641][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=48
+[2025.02.03-10.41.36:641][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=48
+[2025.02.03-10.41.36:645][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=48
+[2025.02.03-10.41.36:645][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=48
+[2025.02.03-10.41.36:645][ 87]LogInit: FAudioDevice initialized with ID 48.
+[2025.02.03-10.41.36:645][ 87]LogAudio: Display: Audio Device (ID: 48) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.41.36:645][ 87]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 48
+[2025.02.03-10.41.36:648][ 87]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.41.36:649][ 87]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.41.36
+[2025.02.03-10.41.36:649][ 87]LogWorld: Bringing up level for play took: 0.001436
+[2025.02.03-10.41.36:652][ 87]PIE: Server logged in
+[2025.02.03-10.41.36:653][ 87]PIE: Play in editor total start time 0.385 seconds.
+[2025.02.03-10.41.43:840][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.41.43:840][473]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.41.43:840][473]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.41.43:840][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.41.43:850][473]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.41.43:855][473]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.41.43:878][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.41.43:879][473]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 48
+[2025.02.03-10.41.43:879][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2025.02.03-10.41.43:881][473]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=48
+[2025.02.03-10.41.43:891][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.02.03-10.41.44:037][474]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.02.03-10.42.47:154][212]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.42.47:162][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.42.47:162][212]LogPlayLevel: Display: Creating online subsystem for client :Context_57
+[2025.02.03-10.42.47:165][212]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2025.02.03-10.42.47:182][213]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.42.47:184][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001713s)
+[2025.02.03-10.42.47:184][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001779s)
+[2025.02.03-10.42.47:207][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.02.03-10.42.47:209][213]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.42.47:211][213]LogPlayLevel: PIE: World Init took: (0.001792s)
+[2025.02.03-10.42.47:212][213]LogAudio: Display: Creating Audio Device:                 Id: 49, Scope: Unique, Realtime: True
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.42.47:212][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.42.47:212][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.42.47:212][213]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.42.47:212][213]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.42.47:212][213]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.42.47:215][213]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.42.47:501][213]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.42.47:501][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.42.47:501][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.42.47:501][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.42.47:502][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=49
+[2025.02.03-10.42.47:502][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=49
+[2025.02.03-10.42.47:505][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=49
+[2025.02.03-10.42.47:505][213]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=49
+[2025.02.03-10.42.47:505][213]LogInit: FAudioDevice initialized with ID 49.
+[2025.02.03-10.42.47:505][213]LogAudio: Display: Audio Device (ID: 49) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.42.47:505][213]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 49
+[2025.02.03-10.42.47:509][213]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.42.47:510][213]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.42.47
+[2025.02.03-10.42.47:510][213]LogWorld: Bringing up level for play took: 0.001228
+[2025.02.03-10.42.47:513][213]PIE: Server logged in
+[2025.02.03-10.42.47:514][213]PIE: Play in editor total start time 0.352 seconds.
+[2025.02.03-10.43.03:639][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.03:639][159]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.43.03:639][159]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.43.03:640][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.03:645][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.43.03:651][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.03:672][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.03:673][159]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 49
+[2025.02.03-10.43.03:673][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2025.02.03-10.43.03:675][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=49
+[2025.02.03-10.43.03:683][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.02.03-10.43.03:823][160]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.02.03-10.43.06:968][347]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.43.06:978][347]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.43.07:008][347]LogPlayLevel: Display: Creating online subsystem for client :Context_58
+[2025.02.03-10.43.07:011][347]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.02.03-10.43.07:027][348]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.43.07:029][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001590s)
+[2025.02.03-10.43.07:029][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001637s)
+[2025.02.03-10.43.07:054][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.02.03-10.43.07:056][348]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.43.07:057][348]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2025.02.03-10.43.07:059][348]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.43.07:059][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.43.07:059][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.43.07:059][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.43.07:059][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.43.07:059][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.43.07:062][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.43.07:351][348]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.43.07:351][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.43.07:351][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.43.07:351][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.43.07:352][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2025.02.03-10.43.07:352][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2025.02.03-10.43.07:355][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2025.02.03-10.43.07:355][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2025.02.03-10.43.07:355][348]LogInit: FAudioDevice initialized with ID 50.
+[2025.02.03-10.43.07:355][348]LogAudio: Display: Audio Device (ID: 50) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.43.07:355][348]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 50
+[2025.02.03-10.43.07:358][348]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.43.07:359][348]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.43.07
+[2025.02.03-10.43.07:360][348]LogWorld: Bringing up level for play took: 0.001200
+[2025.02.03-10.43.07:362][348]PIE: Server logged in
+[2025.02.03-10.43.07:363][348]PIE: Play in editor total start time 0.386 seconds.
+[2025.02.03-10.43.10:071][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.10:071][503]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.43.10:071][503]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.43.10:071][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.10:077][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.43.10:083][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.10:103][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.10:103][503]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 50
+[2025.02.03-10.43.10:104][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2025.02.03-10.43.10:105][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2025.02.03-10.43.10:114][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.02.03-10.43.10:245][504]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.02.03-10.43.13:133][675]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-10.43.13:283][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.02.03-10.43.13:289][675]LogSavePackage: Moving output files for package: /Game/Map/Map_DefaultGameScene
+[2025.02.03-10.43.13:289][675]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/Map_DefaultGameScene1BF2289C42B7A4C77BF2C4A38F9A6A65.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Map/Map_DefaultGameScene.umap'
+[2025.02.03-10.43.13:300][675]LogFileHelpers: Saving map 'Map_DefaultGameScene' took 0.068
+[2025.02.03-10.43.13:317][675]LogFileHelpers: InternalPromptForCheckoutAndSave took 184.166 ms (total: 4.98 sec)
+[2025.02.03-10.43.13:419][675]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-10.43.13:419][675]LogContentValidation: Enabled validators:
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-10.43.13:419][675]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-10.43.13:419][675]AssetCheck: /Game/Map/Map_DefaultGameScene Validating asset
+[2025.02.03-10.43.25:672][401]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10128.202148
+[2025.02.03-10.43.25:807][409]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-10.43.25:807][409]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10128.320312, Update Interval: 332.198242
+[2025.02.03-10.43.28:170][546]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.43.28:180][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-10.43.28:180][546]LogPlayLevel: Display: Creating online subsystem for client :Context_59
+[2025.02.03-10.43.28:182][546]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.02.03-10.43.28:200][547]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.43.28:201][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001622s)
+[2025.02.03-10.43.28:201][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001675s)
+[2025.02.03-10.43.28:220][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.02.03-10.43.28:223][547]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.43.28:226][547]LogPlayLevel: PIE: World Init took: (0.001722s)
+[2025.02.03-10.43.28:227][547]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.43.28:227][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.43.28:227][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.43.28:227][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.43.28:227][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.43.28:227][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.43.28:229][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.43.28:514][547]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.43.28:515][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.43.28:515][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.43.28:515][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.43.28:515][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2025.02.03-10.43.28:515][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2025.02.03-10.43.28:519][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2025.02.03-10.43.28:519][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2025.02.03-10.43.28:519][547]LogInit: FAudioDevice initialized with ID 51.
+[2025.02.03-10.43.28:519][547]LogAudio: Display: Audio Device (ID: 51) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.43.28:519][547]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2025.02.03-10.43.28:522][547]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.43.28:522][547]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.43.28
+[2025.02.03-10.43.28:523][547]LogWorld: Bringing up level for play took: 0.001248
+[2025.02.03-10.43.28:525][547]PIE: Server logged in
+[2025.02.03-10.43.28:526][547]PIE: Play in editor total start time 0.347 seconds.
+[2025.02.03-10.43.51:992][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.51:992][851]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.43.51:992][851]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.43.51:992][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.51:998][851]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.43.52:004][851]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.43.52:021][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.43.52:021][851]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2025.02.03-10.43.52:021][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.02.03-10.43.52:025][851]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2025.02.03-10.43.52:032][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.02.03-10.43.52:169][852]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.02.03-10.44.32:879][464]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.44.32:890][464]LogPlayLevel: [PlayLevel] Compiling BP_Fighter before play...
+[2025.02.03-10.44.32:894][464]LogBlueprint: Error: [AssetLog] E:\WalkUpThrow\WalkUpThrow-UE-\WalkUpThrow\Content\Blueprints\BP_Fighter.uasset: [Compiler] COMPILER ERROR: failed building connection with 'Replace existing input connections' at  AddMappingContext
+[2025.02.03-10.44.33:018][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.02.03-10.44.33:023][464]LogPlayLevel: PlayLevel: Blueprint regeneration took 133 ms (1 blueprints)
+[2025.02.03-10.44.33:023][464]BlueprintLog: Warning: Blueprint failed to compile:  BP_Fighter
+[2025.02.03-10.44.36:297][464]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.02.03-10.44.47:606][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.02.03-10.45.07:442][968]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.45.07:456][968]LogPlayLevel: [PlayLevel] Compiling BP_Fighter before play...
+[2025.02.03-10.45.07:606][968]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.02.03-10.45.07:615][968]LogPlayLevel: PlayLevel: Blueprint regeneration took 159 ms (1 blueprints)
+[2025.02.03-10.45.07:615][968]LogPlayLevel: Display: Creating online subsystem for client :Context_60
+[2025.02.03-10.45.07:618][968]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.02.03-10.45.07:706][969]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.45.07:708][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001803s)
+[2025.02.03-10.45.07:708][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001881s)
+[2025.02.03-10.45.07:733][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2025.02.03-10.45.07:742][969]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.45.07:744][969]LogPlayLevel: PIE: World Init took: (0.002204s)
+[2025.02.03-10.45.07:745][969]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.45.07:745][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.45.07:745][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.45.07:745][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.45.07:745][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.45.07:745][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.45.07:747][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.45.08:055][969]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.45.08:055][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.45.08:055][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.45.08:055][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.45.08:055][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2025.02.03-10.45.08:055][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2025.02.03-10.45.08:058][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2025.02.03-10.45.08:058][969]LogInit: FAudioDevice initialized with ID 52.
+[2025.02.03-10.45.08:059][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2025.02.03-10.45.08:059][969]LogAudio: Display: Audio Device (ID: 52) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.45.08:059][969]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2025.02.03-10.45.08:073][969]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.45.08:075][969]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.45.08
+[2025.02.03-10.45.08:076][969]LogWorld: Bringing up level for play took: 0.002707
+[2025.02.03-10.45.08:079][969]PIE: Server logged in
+[2025.02.03-10.45.08:082][969]PIE: Play in editor total start time 0.627 seconds.
+[2025.02.03-10.45.08:085][969]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:085][969]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:085][969]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:085][969]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:108][970]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:108][970]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:108][970]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:108][970]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:162][971]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:162][971]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:162][971]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:162][971]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:193][972]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:193][972]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:193][972]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:193][972]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:218][973]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:218][973]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:218][973]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:218][973]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:241][974]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:241][974]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:241][974]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:241][974]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:263][975]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:263][975]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:263][975]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:263][975]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:285][976]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:285][976]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:285][976]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:285][976]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:306][977]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:306][977]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:306][977]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:306][977]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:326][978]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:326][978]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:326][978]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:326][978]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:349][979]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:349][979]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:349][979]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:349][979]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:369][980]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:369][980]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:369][980]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:369][980]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:390][981]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:390][981]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:390][981]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:390][981]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:409][982]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:409][982]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:409][982]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:409][982]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:437][983]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:437][983]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:437][983]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:437][983]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:477][984]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:477][984]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:477][984]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:477][984]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:496][985]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:498][985]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:498][985]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:498][985]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:517][986]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:517][986]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:517][986]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:517][986]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:537][987]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:537][987]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:537][987]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:537][987]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:557][988]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:557][988]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:557][988]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:557][988]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:577][989]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:577][989]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:577][989]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:577][989]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:599][990]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:599][990]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:599][990]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:599][990]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:625][991]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:625][991]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:625][991]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:625][991]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:649][992]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:649][992]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:649][992]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:649][992]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:672][993]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:672][993]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:672][993]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:672][993]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:695][994]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:695][994]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:695][994]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:695][994]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:715][995]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:715][995]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:716][995]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:716][995]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:734][996]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:734][996]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:734][996]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:734][996]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:756][997]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:756][997]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:756][997]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:756][997]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:779][998]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:779][998]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:779][998]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:779][998]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:800][999]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:801][999]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:801][999]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:801][999]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:822][  0]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:822][  0]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.08:822][  0]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.08:822][  0]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:021][  9]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:021][  9]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:021][  9]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:021][  9]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:034][ 10]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:034][ 10]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:034][ 10]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:034][ 10]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:051][ 11]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:051][ 11]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:051][ 11]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:051][ 11]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:066][ 12]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:066][ 12]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:066][ 12]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:066][ 12]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:084][ 13]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:084][ 13]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:084][ 13]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:084][ 13]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:104][ 14]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:104][ 14]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:104][ 14]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:104][ 14]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:120][ 15]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:120][ 15]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:120][ 15]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:120][ 15]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:136][ 16]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:136][ 16]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:136][ 16]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:136][ 16]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:153][ 17]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:153][ 17]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:153][ 17]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:153][ 17]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:169][ 18]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:170][ 18]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:170][ 18]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:170][ 18]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:186][ 19]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:187][ 19]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:187][ 19]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:187][ 19]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:203][ 20]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:203][ 20]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:203][ 20]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:203][ 20]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:218][ 21]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:218][ 21]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:218][ 21]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:218][ 21]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:235][ 22]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:235][ 22]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:235][ 22]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:235][ 22]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:253][ 23]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:253][ 23]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:253][ 23]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:253][ 23]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:269][ 24]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:269][ 24]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:269][ 24]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:269][ 24]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:286][ 25]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:287][ 25]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:287][ 25]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:287][ 25]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:304][ 26]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:304][ 26]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:304][ 26]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:304][ 26]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:321][ 27]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:321][ 27]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:321][ 27]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:321][ 27]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:338][ 28]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:338][ 28]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:338][ 28]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:338][ 28]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:355][ 29]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:355][ 29]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:355][ 29]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:355][ 29]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:374][ 30]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:374][ 30]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:374][ 30]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:374][ 30]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:389][ 31]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:389][ 31]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:389][ 31]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:389][ 31]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:408][ 32]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:408][ 32]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:408][ 32]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:408][ 32]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:424][ 33]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:424][ 33]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:424][ 33]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:424][ 33]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:440][ 34]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:440][ 34]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:440][ 34]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:440][ 34]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:463][ 35]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:463][ 35]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:463][ 35]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:463][ 35]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:481][ 36]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:481][ 36]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:481][ 36]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:481][ 36]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:496][ 37]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:496][ 37]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:496][ 37]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:496][ 37]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:514][ 38]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:514][ 38]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:514][ 38]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:514][ 38]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:530][ 39]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:530][ 39]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:530][ 39]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:530][ 39]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:547][ 40]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:547][ 40]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:547][ 40]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:547][ 40]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:564][ 41]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:564][ 41]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:564][ 41]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:564][ 41]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:580][ 42]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:580][ 42]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:580][ 42]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:580][ 42]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:597][ 43]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:597][ 43]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:597][ 43]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:597][ 43]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:615][ 44]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:615][ 44]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:615][ 44]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:615][ 44]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:631][ 45]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:631][ 45]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:631][ 45]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:631][ 45]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:648][ 46]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:648][ 46]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:648][ 46]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:648][ 46]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:664][ 47]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:664][ 47]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:664][ 47]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:664][ 47]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:682][ 48]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:682][ 48]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:682][ 48]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:682][ 48]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:698][ 49]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:698][ 49]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:698][ 49]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:698][ 49]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:715][ 50]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:716][ 50]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:716][ 50]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:716][ 50]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:733][ 51]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:734][ 51]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:734][ 51]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:734][ 51]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:751][ 52]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:751][ 52]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:751][ 52]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:751][ 52]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:767][ 53]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:767][ 53]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:767][ 53]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:767][ 53]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:783][ 54]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:783][ 54]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:783][ 54]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:783][ 54]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:801][ 55]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:801][ 55]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:801][ 55]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:801][ 55]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:817][ 56]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:817][ 56]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:817][ 56]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:817][ 56]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:834][ 57]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:835][ 57]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:835][ 57]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:835][ 57]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:851][ 58]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:851][ 58]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:851][ 58]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:851][ 58]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:867][ 59]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:867][ 59]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:867][ 59]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:867][ 59]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:884][ 60]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:884][ 60]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:884][ 60]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:884][ 60]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:900][ 61]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:900][ 61]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:900][ 61]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:900][ 61]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:917][ 62]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:917][ 62]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:917][ 62]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:917][ 62]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:935][ 63]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:935][ 63]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:935][ 63]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:935][ 63]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:951][ 64]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:951][ 64]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:951][ 64]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:951][ 64]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:968][ 65]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:968][ 65]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:968][ 65]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:968][ 65]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:983][ 66]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:983][ 66]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.09:983][ 66]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.09:983][ 66]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:001][ 67]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:001][ 67]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:001][ 67]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:001][ 67]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:018][ 68]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:018][ 68]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:018][ 68]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:018][ 68]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:034][ 69]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:034][ 69]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:034][ 69]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:034][ 69]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:052][ 70]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:052][ 70]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:052][ 70]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:052][ 70]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:069][ 71]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:069][ 71]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:069][ 71]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:069][ 71]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:085][ 72]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:085][ 72]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:085][ 72]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:085][ 72]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:100][ 73]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:100][ 73]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:100][ 73]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:100][ 73]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:117][ 74]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:117][ 74]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:117][ 74]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:117][ 74]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:134][ 75]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:134][ 75]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:134][ 75]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:134][ 75]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:153][ 76]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:153][ 76]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:153][ 76]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:153][ 76]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:169][ 77]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:169][ 77]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:169][ 77]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:169][ 77]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:183][ 78]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:183][ 78]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:183][ 78]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:183][ 78]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:201][ 79]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:201][ 79]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:201][ 79]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:201][ 79]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:218][ 80]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:218][ 80]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:218][ 80]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:218][ 80]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:234][ 81]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:234][ 81]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:234][ 81]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:234][ 81]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:251][ 82]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:251][ 82]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:251][ 82]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:251][ 82]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:267][ 83]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:267][ 83]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:267][ 83]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:267][ 83]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:285][ 84]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:285][ 84]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:285][ 84]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:285][ 84]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:301][ 85]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:301][ 85]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:301][ 85]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:301][ 85]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:317][ 86]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:317][ 86]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:317][ 86]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:317][ 86]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:335][ 87]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:335][ 87]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:335][ 87]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:335][ 87]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:352][ 88]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:352][ 88]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:352][ 88]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:352][ 88]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:367][ 89]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:367][ 89]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:367][ 89]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:367][ 89]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:385][ 90]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:385][ 90]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:385][ 90]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:385][ 90]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:401][ 91]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:401][ 91]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:401][ 91]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:401][ 91]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:417][ 92]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:417][ 92]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:417][ 92]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:417][ 92]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:434][ 93]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:434][ 93]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:434][ 93]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:434][ 93]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:450][ 94]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:450][ 94]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:450][ 94]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:450][ 94]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:467][ 95]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:467][ 95]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:467][ 95]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:467][ 95]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:484][ 96]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:484][ 96]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:484][ 96]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:484][ 96]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:501][ 97]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:501][ 97]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:501][ 97]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:501][ 97]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:517][ 98]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:517][ 98]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:517][ 98]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:517][ 98]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:533][ 99]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:533][ 99]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:533][ 99]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:533][ 99]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:552][100]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:552][100]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:552][100]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:552][100]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:567][101]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:568][101]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:568][101]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:568][101]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:584][102]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:585][102]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:585][102]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:585][102]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:600][103]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:600][103]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:600][103]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:600][103]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:618][104]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:618][104]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:618][104]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:618][104]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:633][105]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:634][105]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:634][105]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:634][105]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:650][106]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:650][106]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:650][106]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:650][106]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:667][107]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:667][107]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:668][107]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:668][107]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:684][108]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:684][108]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:684][108]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:684][108]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:701][109]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:701][109]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:701][109]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:701][109]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:718][110]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:718][110]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:718][110]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:718][110]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:733][111]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:733][111]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:733][111]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:733][111]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:751][112]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:751][112]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:751][112]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:751][112]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:767][113]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:767][113]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:767][113]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:767][113]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:784][114]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:784][114]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:784][114]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:784][114]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:801][115]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:801][115]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:801][115]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:801][115]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:818][116]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:818][116]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:818][116]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:818][116]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:834][117]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:834][117]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:834][117]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:834][117]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:850][118]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:850][118]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:850][118]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:850][118]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:868][119]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:868][119]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:868][119]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:868][119]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:884][120]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:884][120]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:884][120]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:884][120]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:901][121]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:901][121]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:901][121]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:901][121]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:919][122]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:919][122]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:919][122]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:919][122]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:934][123]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:934][123]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:935][123]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:935][123]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:951][124]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:951][124]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:951][124]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:951][124]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:967][125]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:967][125]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:969][125]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:969][125]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:985][126]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:985][126]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.10:985][126]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.10:985][126]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:003][127]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:003][127]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:003][127]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:003][127]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:020][128]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:020][128]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:020][128]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:020][128]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:037][129]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:037][129]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:037][129]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:037][129]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:052][130]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:053][130]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:053][130]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:053][130]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:068][131]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:068][131]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:068][131]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:068][131]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:086][132]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:087][132]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:087][132]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:087][132]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:103][133]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:103][133]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:103][133]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:103][133]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:119][134]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:119][134]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:119][134]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:119][134]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:135][135]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:135][135]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:135][135]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:135][135]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:152][136]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:152][136]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:152][136]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:152][136]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:168][137]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:168][137]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:168][137]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:168][137]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:185][138]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:185][138]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:185][138]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:185][138]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:202][139]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:202][139]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:202][139]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:202][139]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:218][140]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:219][140]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:219][140]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:219][140]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:234][141]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:234][141]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:234][141]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:234][141]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:253][142]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:253][142]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:253][142]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:253][142]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:270][143]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:270][143]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:270][143]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:270][143]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:285][144]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:285][144]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:285][144]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:285][144]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:301][145]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:301][145]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:301][145]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:301][145]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:318][146]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:318][146]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:318][146]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:318][146]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:335][147]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:335][147]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:335][147]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:335][147]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:352][148]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:352][148]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:352][148]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:352][148]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:369][149]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:369][149]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:369][149]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:369][149]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:386][150]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:386][150]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:386][150]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:386][150]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:402][151]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:402][151]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:402][151]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:402][151]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:419][152]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:419][152]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:419][152]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:419][152]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:435][153]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:435][153]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:435][153]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:435][153]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:452][154]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:452][154]LogBlueprintUserMessages: [BP_Fighter_C_0] Hello
+[2025.02.03-10.45.11:452][154]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:452][154]LogBlueprintUserMessages: [BP_Fighter_C_1] Hello
+[2025.02.03-10.45.11:482][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.45.11:482][154]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.45.11:483][154]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.45.11:483][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.45.11:493][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.45.11:498][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.45.11:519][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.45.11:519][154]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2025.02.03-10.45.11:519][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.02.03-10.45.11:521][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2025.02.03-10.45.11:532][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.02.03-10.45.11:678][155]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.02.03-10.45.23:021][729]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-10.45.23:031][729]LogPlayLevel: [PlayLevel] Compiling BP_Fighter before play...
+[2025.02.03-10.45.23:169][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.02.03-10.45.23:173][729]LogPlayLevel: PlayLevel: Blueprint regeneration took 142 ms (1 blueprints)
+[2025.02.03-10.45.23:173][729]LogPlayLevel: Display: Creating online subsystem for client :Context_61
+[2025.02.03-10.45.23:176][729]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.02.03-10.45.23:259][730]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.45.23:261][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001666s)
+[2025.02.03-10.45.23:261][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.001722s)
+[2025.02.03-10.45.23:285][730]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2025.02.03-10.45.23:293][730]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-10.45.23:295][730]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2025.02.03-10.45.23:296][730]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-10.45.23:296][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-10.45.23:296][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-10.45.23:296][730]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-10.45.23:296][730]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-10.45.23:296][730]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-10.45.23:300][730]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-10.45.23:603][730]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-10.45.23:604][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-10.45.23:604][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-10.45.23:604][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-10.45.23:604][730]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2025.02.03-10.45.23:604][730]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2025.02.03-10.45.23:607][730]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2025.02.03-10.45.23:607][730]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2025.02.03-10.45.23:607][730]LogInit: FAudioDevice initialized with ID 53.
+[2025.02.03-10.45.23:607][730]LogAudio: Display: Audio Device (ID: 53) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-10.45.23:607][730]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2025.02.03-10.45.23:618][730]LogLoad: Game class is 'GM_Fighting_C'
+[2025.02.03-10.45.23:619][730]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-02.45.23
+[2025.02.03-10.45.23:620][730]LogWorld: Bringing up level for play took: 0.001551
+[2025.02.03-10.45.23:622][730]PIE: Server logged in
+[2025.02.03-10.45.23:624][730]PIE: Play in editor total start time 0.594 seconds.
+[2025.02.03-10.45.29:648][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.45.29:648][ 62]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-10.45.29:648][ 62]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-10.45.29:648][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.45.29:658][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-10.45.29:664][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-10.45.29:687][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-10.45.29:687][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2025.02.03-10.45.29:688][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.02.03-10.45.29:690][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2025.02.03-10.45.29:700][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.02.03-10.45.29:854][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_61
