@@ -177,7 +177,9 @@
 				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_21.uasset",
 				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_22.uasset",
 				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/FB_Player_MoveLeft.uasset",
-				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset"
+				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset",
+				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Input/InputMappingContext_Fighter.uasset",
+				"E:/WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Input/IA_MoveRight.uasset"
 			]
 		}
 	]
