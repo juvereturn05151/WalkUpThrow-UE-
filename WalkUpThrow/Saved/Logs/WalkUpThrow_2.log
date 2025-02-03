@@ -5563,3 +5563,429 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.03-09.43.50:388][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2025.02.03-09.43.51:665][217]LogSlate: Window 'sheet_05' being destroyed
 [2025.02.03-09.44.01:188][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.02.03-09.44.56:296][773]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.02.03-09.44.56:306][773]LogContentBrowser: Creating deferred item: NewFolder
+[2025.02.03-09.44.56:317][774]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.02.03-09.44.58:672][915]LogContentBrowser: Attempting asset rename: NewFolder -> MoveLeft
+[2025.02.03-09.44.58:673][915]LogContentBrowser: End creating deferred item NewFolder
+[2025.02.03-09.45.03:079][148]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.02.03-09.45.03:088][148]LogContentBrowser: Creating deferred item: NewFolder
+[2025.02.03-09.45.03:130][150]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.02.03-09.45.05:392][286]LogContentBrowser: Attempting asset rename: NewFolder -> Sprite
+[2025.02.03-09.45.05:392][286]LogContentBrowser: End creating deferred item NewFolder
+[2025.02.03-09.45.29:376][705]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6652.111816
+[2025.02.03-09.45.29:551][715]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-09.45.29:551][715]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6652.270996, Update Interval: 349.917908
+[2025.02.03-09.45.31:617][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.45.31:617][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_15] ([1] browsable assets)...
+[2025.02.03-09.45.31:617][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_15]
+[2025.02.03-09.45.31:619][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_15
+[2025.02.03-09.45.31:619][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_15A8745AD3456B9168EDCC9AAFD0F71F56.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_15.uasset'
+[2025.02.03-09.45.31:620][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_16] ([1] browsable assets)...
+[2025.02.03-09.45.31:620][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_16]
+[2025.02.03-09.45.31:620][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_16
+[2025.02.03-09.45.31:620][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_1616DE04B447B929B637AED08C8D6E11A5.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_16.uasset'
+[2025.02.03-09.45.31:623][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_17] ([1] browsable assets)...
+[2025.02.03-09.45.31:623][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_17]
+[2025.02.03-09.45.31:624][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_17
+[2025.02.03-09.45.31:624][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_17E2318EA44EB8029F2C36588F48B63F16.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_17.uasset'
+[2025.02.03-09.45.31:625][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_18] ([1] browsable assets)...
+[2025.02.03-09.45.31:625][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_18]
+[2025.02.03-09.45.31:625][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_18
+[2025.02.03-09.45.31:625][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_18A8757A2043BA4A5A4E2E65A01D8FF4CD.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_18.uasset'
+[2025.02.03-09.45.31:627][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_19] ([1] browsable assets)...
+[2025.02.03-09.45.31:627][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_19]
+[2025.02.03-09.45.31:628][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_19
+[2025.02.03-09.45.31:628][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_19EB3D7BE643653F364261658538460FBB.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_19.uasset'
+[2025.02.03-09.45.31:629][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_20] ([1] browsable assets)...
+[2025.02.03-09.45.31:629][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_20]
+[2025.02.03-09.45.31:630][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_20
+[2025.02.03-09.45.31:630][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_2047433E6C4833E643DF6D49B38C9D87F6.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_20.uasset'
+[2025.02.03-09.45.31:631][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_21] ([1] browsable assets)...
+[2025.02.03-09.45.31:631][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_21]
+[2025.02.03-09.45.31:633][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_21
+[2025.02.03-09.45.31:633][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_214A30F8CB4FB517C78D09A681075214EC.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_21.uasset'
+[2025.02.03-09.45.31:634][818]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_22] ([1] browsable assets)...
+[2025.02.03-09.45.31:634][818]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveRight/Sprite/sheet_05_Sprite_22]
+[2025.02.03-09.45.31:636][818]LogSavePackage: Moving output files for package: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_22
+[2025.02.03-09.45.31:636][818]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_22782CF94E4112050D9B511886EDC1CB50.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveRight/Sprite/sheet_05_Sprite_22.uasset'
+[2025.02.03-09.45.31:637][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.979 ms (total: 3.35 sec)
+[2025.02.03-09.45.31:735][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.02.03-09.45.31:760][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.02.03-09.45.31:779][818]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.02.03-09.45.31:855][818]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.02.03-09.45.31:855][818]LogContentValidation: Display: Starting to validate 8 assets
+[2025.02.03-09.45.31:855][818]LogContentValidation: Enabled validators:
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.45.31:855][818]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_15 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_16 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_17 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_18 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_19 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_20 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_21 Validating asset
+[2025.02.03-09.45.31:856][818]AssetCheck: /Game/Animation/MoveRight/Sprite/sheet_05_Sprite_22 Validating asset
+[2025.02.03-09.45.52:024][  8]Cmd: TRANSACTION UNDO
+[2025.02.03-09.45.52:024][  8]LogEditorTransaction: Undo Edit Frame Run
+[2025.02.03-09.45.52:522][ 22]Cmd: TRANSACTION UNDO
+[2025.02.03-09.45.52:522][ 22]LogEditorTransaction: Undo Edit Frame Run
+[2025.02.03-09.45.54:769][155]Cmd: TRANSACTION REDO
+[2025.02.03-09.45.54:769][155]LogEditorTransaction: Redo Edit Frame Run
+[2025.02.03-09.45.54:973][167]Cmd: TRANSACTION REDO
+[2025.02.03-09.45.54:973][167]LogEditorTransaction: Redo Edit Frame Run
+[2025.02.03-09.46.08:414][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.46.08:414][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_15] ([1] browsable assets)...
+[2025.02.03-09.46.08:414][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_15]
+[2025.02.03-09.46.08:415][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_15
+[2025.02.03-09.46.08:415][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_156854CAF54E344327A9CD53B6B39404BF.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_15.uasset'
+[2025.02.03-09.46.08:416][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_16] ([1] browsable assets)...
+[2025.02.03-09.46.08:416][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_16]
+[2025.02.03-09.46.08:418][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_16
+[2025.02.03-09.46.08:418][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_16A9DAF0D44D45FD15E732DA9D01C387ED.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_16.uasset'
+[2025.02.03-09.46.08:418][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_17] ([1] browsable assets)...
+[2025.02.03-09.46.08:419][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_17]
+[2025.02.03-09.46.08:420][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_17
+[2025.02.03-09.46.08:420][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_17182E573244754957B2064D8FCD80E531.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_17.uasset'
+[2025.02.03-09.46.08:420][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_18] ([1] browsable assets)...
+[2025.02.03-09.46.08:421][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_18]
+[2025.02.03-09.46.08:422][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_18
+[2025.02.03-09.46.08:422][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_188263CA9745D149963E316BB73F0EC191.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_18.uasset'
+[2025.02.03-09.46.08:423][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_19] ([1] browsable assets)...
+[2025.02.03-09.46.08:423][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_19]
+[2025.02.03-09.46.08:423][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_19
+[2025.02.03-09.46.08:423][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_19078D5C384CFD2606CE79839BC2CF3BB1.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_19.uasset'
+[2025.02.03-09.46.08:425][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_20] ([1] browsable assets)...
+[2025.02.03-09.46.08:425][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_20]
+[2025.02.03-09.46.08:426][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_20
+[2025.02.03-09.46.08:426][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_208239DDD44D95A3F90B012E91FE3F7407.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_20.uasset'
+[2025.02.03-09.46.08:428][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_21] ([1] browsable assets)...
+[2025.02.03-09.46.08:428][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_21]
+[2025.02.03-09.46.08:429][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_21
+[2025.02.03-09.46.08:429][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_21F98730A946DF43E5C7B01297D0E72446.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_21.uasset'
+[2025.02.03-09.46.08:430][944]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_22] ([1] browsable assets)...
+[2025.02.03-09.46.08:430][944]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_22]
+[2025.02.03-09.46.08:431][944]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_22
+[2025.02.03-09.46.08:431][944]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/sheet_05_Sprite_22C6D28BD947EDC2FFD1B8549ECAE7FC97.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/Sprite/sheet_05_Sprite_22.uasset'
+[2025.02.03-09.46.08:432][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.492 ms (total: 3.37 sec)
+[2025.02.03-09.46.08:532][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.02.03-09.46.08:555][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.02.03-09.46.08:577][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.02.03-09.46.08:651][944]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.02.03-09.46.08:651][944]LogContentValidation: Display: Starting to validate 8 assets
+[2025.02.03-09.46.08:651][944]LogContentValidation: Enabled validators:
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.46.08:651][944]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_15 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_16 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_17 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_18 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_19 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_20 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_21 Validating asset
+[2025.02.03-09.46.08:651][944]AssetCheck: /Game/Animation/MoveLeft/Sprite/sheet_05_Sprite_22 Validating asset
+[2025.02.03-09.46.24:089][854]LogContentBrowser: Deferred new asset file creation: sheet_05
+[2025.02.03-09.46.24:109][854]LogContentBrowser: Creating deferred item: sheet_05
+[2025.02.03-09.46.24:124][855]LogContentBrowser: Renaming the item being created (Deferred Item: sheet_05).
+[2025.02.03-09.46.37:790][672]LogContentBrowser: Attempting asset rename: sheet_05 -> FB_Player_MoveLeft
+[2025.02.03-09.46.37:791][672]LogContentBrowser: End creating deferred item sheet_05
+[2025.02.03-09.46.41:624][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.46.41:624][874]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/MoveLeft/FB_Player_MoveLeft] ([1] browsable assets)...
+[2025.02.03-09.46.41:626][874]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Animation/MoveLeft/FB_Player_MoveLeft.FB_Player_MoveLeft]
+[2025.02.03-09.46.41:626][874]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/FB_Player_MoveLeft]
+[2025.02.03-09.46.41:626][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/MoveLeft/FB_Player_MoveLeft" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/FB_Player_MoveLeft.uasset" SILENT=true
+[2025.02.03-09.46.41:627][874]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/FB_Player_MoveLeft
+[2025.02.03-09.46.41:627][874]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/FB_Player_MoveLeft51E2482142D22E5B35BD569EA2E57F65.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/FB_Player_MoveLeft.uasset'
+[2025.02.03-09.46.41:629][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.010 ms (total: 3.38 sec)
+[2025.02.03-09.46.41:673][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.02.03-09.46.41:697][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.02.03-09.46.41:718][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.02.03-09.46.41:791][874]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.02.03-09.46.41:791][874]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-09.46.41:791][874]LogContentValidation: Enabled validators:
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.46.41:791][874]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.46.41:791][874]AssetCheck: /Game/Animation/MoveLeft/FB_Player_MoveLeft Validating asset
+[2025.02.03-09.46.47:798][230]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Animation/MoveLeft/FB_Player_MoveLeft.FB_Player_MoveLeft
+[2025.02.03-09.46.47:798][230]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.02.03-09.47.10:891][485]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.47.10:988][485]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/MoveLeft/FB_Player_MoveLeft] ([1] browsable assets)...
+[2025.02.03-09.47.10:991][485]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Animation/MoveLeft/FB_Player_MoveLeft.FB_Player_MoveLeft]
+[2025.02.03-09.47.10:991][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/MoveLeft/FB_Player_MoveLeft]
+[2025.02.03-09.47.10:991][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/MoveLeft/FB_Player_MoveLeft" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/FB_Player_MoveLeft.uasset" SILENT=true
+[2025.02.03-09.47.10:992][485]LogSavePackage: Moving output files for package: /Game/Animation/MoveLeft/FB_Player_MoveLeft
+[2025.02.03-09.47.10:993][485]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/FB_Player_MoveLeft9BD10CD042484B9180F9699E64D0076B.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Animation/MoveLeft/FB_Player_MoveLeft.uasset'
+[2025.02.03-09.47.11:006][485]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.724 ms (total: 3.49 sec)
+[2025.02.03-09.47.11:111][485]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-09.47.11:111][485]LogContentValidation: Enabled validators:
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.47.11:111][485]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.47.11:111][485]AssetCheck: /Game/Animation/MoveLeft/FB_Player_MoveLeft Validating asset
+[2025.02.03-09.47.14:199][668]LogSlate: Window 'FB_Player_MoveLeft' being destroyed
+[2025.02.03-09.47.14:242][668]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-09.47.14:243][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-09.47.14:301][668]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.02.03-09.48.42:245][ 54]LogContentBrowser: Deferred new asset file creation: NewPaperFlipbook
+[2025.02.03-09.48.42:253][ 54]LogContentBrowser: Creating deferred item: NewPaperFlipbook
+[2025.02.03-09.48.42:267][ 55]LogContentBrowser: Renaming the item being created (Deferred Item: NewPaperFlipbook).
+[2025.02.03-09.48.42:898][ 92]LogContentBrowser: Attempting asset rename: NewPaperFlipbook -> NewPaperFlipbook
+[2025.02.03-09.48.42:899][ 92]LogContentBrowser: End creating deferred item NewPaperFlipbook
+[2025.02.03-09.48.43:626][135]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Animation/NewPaperFlipbook.NewPaperFlipbook
+[2025.02.03-09.48.43:627][135]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.02.03-09.48.46:739][292]LogSlate: Window 'NewPaperFlipbook' being destroyed
+[2025.02.03-09.48.46:758][292]LogSlate: Window 'NewPaperFlipbook' being destroyed
+[2025.02.03-09.48.46:774][292]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-09.48.46:774][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-09.48.46:834][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.02.03-09.48.48:888][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.02.03-09.48.50:026][413]LogSlate: Window 'Delete Assets' being destroyed
+[2025.02.03-09.48.50:066][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.02.03-09.48.50:089][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.02.03-09.48.50:109][413]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.02.03-09.51.51:157][849]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7033.883301
+[2025.02.03-09.51.52:158][852]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-09.51.52:158][852]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7034.550781, Update Interval: 312.958771
+[2025.02.03-09.52.04:647][988]LogSlate: External Image Picker: DecompressImage failed
+[2025.02.03-09.53.02:883][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.02.03-09.53.04:268][204]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.03-09.53.04:283][204]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.03-09.53.07:830][409]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.02.03-09.53.07:841][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.03-09.53.07:841][409]LogPlayLevel: Display: Creating online subsystem for client :Context_45
+[2025.02.03-09.53.07:843][409]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.02.03-09.53.07:862][410]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-09.53.07:865][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002391s)
+[2025.02.03-09.53.07:865][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Map_DefaultGameScene.Map_DefaultGameScene to /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene (0.002453s)
+[2025.02.03-09.53.07:888][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.02.03-09.53.07:893][410]LogChaosDD: Creating Chaos Debug Draw Scene for world Map_DefaultGameScene
+[2025.02.03-09.53.07:896][410]LogPlayLevel: PIE: World Init took: (0.002199s)
+[2025.02.03-09.53.07:897][410]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.03-09.53.07:897][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.03-09.53.07:897][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.03-09.53.07:897][410]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.03-09.53.07:897][410]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.03-09.53.07:897][410]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.03-09.53.07:899][410]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.03-09.53.08:211][410]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.02.03-09.53.08:211][410]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.03-09.53.08:211][410]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.03-09.53.08:211][410]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.03-09.53.08:212][410]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2025.02.03-09.53.08:212][410]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2025.02.03-09.53.08:216][410]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2025.02.03-09.53.08:216][410]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2025.02.03-09.53.08:216][410]LogInit: FAudioDevice initialized with ID 39.
+[2025.02.03-09.53.08:216][410]LogAudio: Display: Audio Device (ID: 39) registered with world 'Map_DefaultGameScene'.
+[2025.02.03-09.53.08:216][410]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2025.02.03-09.53.08:219][410]LogLoad: Game class is 'GameModeBase'
+[2025.02.03-09.53.08:220][410]LogWorld: Bringing World /Game/Map/UEDPIE_0_Map_DefaultGameScene.Map_DefaultGameScene up for play (max tick rate 60) at 2025.02.03-01.53.08
+[2025.02.03-09.53.08:221][410]LogWorld: Bringing up level for play took: 0.001654
+[2025.02.03-09.53.08:223][410]PIE: Server logged in
+[2025.02.03-09.53.08:225][410]PIE: Play in editor total start time 0.385 seconds.
+[2025.02.03-09.53.08:809][440]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 2e0...6d8
+[2025.02.03-09.53.08:809][440]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.99 RefreshExpires: 1.552e+07
+[2025.02.03-09.53.08:996][451]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 2e0...6d8 Access[Expires: 2025.02.03-11.53.08 Remaining: 7200.75] Refresh[Expires: 2025-08-02T02:18:19.359Z Remaining: 15524711.36] State: Valid
+[2025.02.03-09.53.15:221][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-09.53.15:221][823]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_Map_DefaultGameScene
+[2025.02.03-09.53.15:222][823]LogWorld: UWorld::CleanupWorld for Map_DefaultGameScene, bSessionEnded=true, bCleanupResources=true
+[2025.02.03-09.53.15:222][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-09.53.15:230][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.03-09.53.15:238][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.03-09.53.15:264][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.03-09.53.15:265][823]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2025.02.03-09.53.15:265][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2025.02.03-09.53.15:268][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2025.02.03-09.53.15:278][823]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.02.03-09.53.15:322][824]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: ================================================
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Total job queries 208, among them cache hits 17 (8.17%), DDC hits 167 (80.29%), Duplicates 4 (1.92%)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Tracking 187 distinct input hashes that result in 174 distinct outputs (93.05%)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: RAM used: 129.47 KiB of 1.20 GiB budget. Usage: 0.01%
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Shaders Compiled: 20
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Jobs assigned 20, completed 20 (100%)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Average time worker was idle: 2501.21 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.22 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Job execution time: average 2.42 s, max 4.15 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Job life time (pending + execution): average 2.48 s, max 4.23
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Shader code size: average 7.782 KiB, min 4.277 KiB, max 12.215 KiB
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 13.27 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Average processing rate: 1.51 jobs/sec
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Total thread time: 18.191 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Total thread preprocess time: 4.236 s
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Percentage time preprocessing: 23.28%
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Effective parallelization: 1.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 1.71 sec, max 2.06 sec, min 1.36 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.34 sec, max 1.34 sec, min 1.34 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.88 sec, max 1.34 sec, min 0.64 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.74 sec, max 1.07 sec, min 0.49 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.30% of total time (compiled    5 times, average 0.88 sec, max 1.34 sec, min 0.64 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 18.85% of total time (compiled    2 times, average 1.71 sec, max 2.06 sec, min 1.36 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.06% of total time (compiled    5 times, average 0.62 sec, max 1.00 sec, min 0.46 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                                 FLumenCardPS - 12.15% of total time (compiled    3 times, average 0.74 sec, max 1.07 sec, min 0.49 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.61% of total time (compiled    3 times, average 0.64 sec, max 0.97 sec, min 0.43 sec)
+[2025.02.03-09.54.48:323][278]LogShaderCompilers: Display: === Material stats ===
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Materials Translated:    129
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Material Translation Only: 0.04 s (42%)
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: Material Cache Hits: 20 (16%)
+[2025.02.03-09.54.48:324][278]LogShaderCompilers: Display: ================================================
+[2025.02.03-09.55.40:343][643]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.02.03-09.55.40:352][643]LogContentBrowser: Creating deferred item: NewFolder
+[2025.02.03-09.55.40:366][644]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.02.03-09.55.42:623][780]LogContentBrowser: Attempting asset rename: NewFolder -> GameMode
+[2025.02.03-09.55.42:623][780]LogContentBrowser: End creating deferred item NewFolder
+[2025.02.03-09.56.31:042][ 63]LogDerivedDataCache: C:/Users/drago/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.03-09.57.35:995][717]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7378.730469
+[2025.02.03-09.57.36:994][720]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-09.57.36:994][720]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7379.397461, Update Interval: 341.613831
+[2025.02.03-09.57.49:741][209]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.02.03-09.57.49:758][209]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.03-09.57.49:767][209]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.03-09.57.49:780][210]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.03-09.57.54:406][488]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_Fighting
+[2025.02.03-09.57.54:412][488]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.03-09.57.56:654][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.57.56:743][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GM_Fighting] ([2] browsable assets)...
+[2025.02.03-09.57.56:743][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GM_Fighting]
+[2025.02.03-09.57.56:743][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GM_Fighting" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset" SILENT=true
+[2025.02.03-09.57.56:746][621]LogSavePackage: Moving output files for package: /Game/Blueprints/GM_Fighting
+[2025.02.03-09.57.56:746][621]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/GM_Fighting530C111842E16CF30B8EB88F7EE0395E.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset'
+[2025.02.03-09.57.56:760][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.469 ms (total: 3.60 sec)
+[2025.02.03-09.57.56:861][621]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-09.57.56:861][621]LogContentValidation: Enabled validators:
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.57.56:861][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.57.56:861][621]AssetCheck: /Game/Blueprints/GM_Fighting Validating asset
+[2025.02.03-09.57.59:031][749]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GM_Fighting.GM_Fighting
+[2025.02.03-09.57.59:031][749]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.02.03-09.58.20:825][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.02.03-09.59.05:050][152]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-09.59.05:277][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.02.03-09.59.05:287][152]LogSavePackage: Moving output files for package: /Game/Map/Map_DefaultGameScene
+[2025.02.03-09.59.05:287][152]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/Map_DefaultGameSceneDDF785BE4C2E6F3DEB220693ADF041C2.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Map/Map_DefaultGameScene.umap'
+[2025.02.03-09.59.05:300][152]LogFileHelpers: Saving map 'Map_DefaultGameScene' took 0.081
+[2025.02.03-09.59.05:319][152]LogFileHelpers: InternalPromptForCheckoutAndSave took 269.149 ms (total: 3.87 sec)
+[2025.02.03-09.59.05:430][152]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-09.59.05:430][152]LogContentValidation: Enabled validators:
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-09.59.05:430][152]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-09.59.05:430][152]AssetCheck: /Game/Map/Map_DefaultGameScene Validating asset
+[2025.02.03-10.00.10:187][566]LogSlate: External Image Picker: DecompressImage failed
+[2025.02.03-10.00.37:095][137]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.03-10.00.37:105][137]LogSlate: Window 'Project Settings' being destroyed
+[2025.02.03-10.00.39:579][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2025.02.03-10.00.39:585][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-10.00.39:674][266]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GM_Fighting] ([2] browsable assets)...
+[2025.02.03-10.00.39:674][266]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GM_Fighting]
+[2025.02.03-10.00.39:674][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GM_Fighting" FILE="../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset" SILENT=true
+[2025.02.03-10.00.39:676][266]LogSavePackage: Moving output files for package: /Game/Blueprints/GM_Fighting
+[2025.02.03-10.00.39:678][266]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/GM_FightingA8B9413041714B5084AAD792A90418C1.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Blueprints/GM_Fighting.uasset'
+[2025.02.03-10.00.39:693][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.935 ms (total: 3.98 sec)
+[2025.02.03-10.00.39:792][266]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-10.00.39:792][266]LogContentValidation: Enabled validators:
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-10.00.39:792][266]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-10.00.39:792][266]AssetCheck: /Game/Blueprints/GM_Fighting Validating asset
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: ================================================
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Total job queries 209, among them cache hits 17 (8.13%), DDC hits 167 (79.90%), Duplicates 4 (1.91%)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Tracking 188 distinct input hashes that result in 175 distinct outputs (93.09%)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: RAM used: 129.74 KiB of 1.20 GiB budget. Usage: 0.01%
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Shaders Compiled: 21
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Jobs assigned 21, completed 21 (100%)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Average time worker was idle: 2379.05 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.22 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Job execution time: average 2.39 s, max 4.15 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Job life time (pending + execution): average 2.44 s, max 4.23
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Shader code size: average 7.948 KiB, min 4.277 KiB, max 12.215 KiB
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.91 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Average processing rate: 1.41 jobs/sec
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Total thread time: 19.223 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Total thread preprocess time: 4.248 s
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Percentage time preprocessing: 22.10%
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Effective parallelization: 1.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 1.49 sec, max 2.06 sec, min 1.03 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 1.34 sec, max 1.34 sec, min 1.34 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.88 sec, max 1.34 sec, min 0.64 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.74 sec, max 1.07 sec, min 0.49 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 23.21% of total time (compiled    3 times, average 1.49 sec, max 2.06 sec, min 1.03 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.99% of total time (compiled    5 times, average 0.88 sec, max 1.34 sec, min 0.64 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.15% of total time (compiled    5 times, average 0.62 sec, max 1.00 sec, min 0.46 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.49% of total time (compiled    3 times, average 0.74 sec, max 1.07 sec, min 0.49 sec)
+[2025.02.03-10.03.49:780][790]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.04% of total time (compiled    3 times, average 0.64 sec, max 0.97 sec, min 0.43 sec)
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: === Material stats ===
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Materials Translated:    129
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Material Total Translate Time: 0.10 s
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Material Translation Only: 0.04 s (42%)
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: Material Cache Hits: 20 (16%)
+[2025.02.03-10.03.49:781][790]LogShaderCompilers: Display: ================================================
+[2025.02.03-10.04.07:075][ 62]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7769.797852
+[2025.02.03-10.04.07:207][ 70]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.03-10.04.07:207][ 70]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7769.913574, Update Interval: 332.648712
+[2025.02.03-10.06.09:549][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.02.03-10.06.09:562][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.03-10.06.09:700][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2025.02.03-10.06.09:705][192]LogSavePackage: Moving output files for package: /Game/Map/Map_DefaultGameScene
+[2025.02.03-10.06.09:706][192]LogSavePackage: Moving '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Saved/Map_DefaultGameScene28EABB0F440444C8437114A3F3FF6501.tmp' to '../../../../../WalkUpThrow/WalkUpThrow-UE-/WalkUpThrow/Content/Map/Map_DefaultGameScene.umap'
+[2025.02.03-10.06.09:716][192]LogFileHelpers: Saving map 'Map_DefaultGameScene' took 0.064
+[2025.02.03-10.06.09:730][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 167.347 ms (total: 4.14 sec)
+[2025.02.03-10.06.09:830][192]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.03-10.06.09:830][192]LogContentValidation: Enabled validators:
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.03-10.06.09:830][192]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.03-10.06.09:830][192]AssetCheck: /Game/Map/Map_DefaultGameScene Validating asset
